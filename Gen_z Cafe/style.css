@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgb(155, 113, 58);
+    color: white;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .btn {
+    background: red;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background: url("https://images.nightcafe.studio/ik-seo/jobs/6kHpziiBrJUyVTsHV9LS/6kHpziiBrJUyVTsHV9LS--1--mj9ko/coffee-shop.jpg?tr=w-1600,c-at_max") center/cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .hero-text {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  .why {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: white;
+    font-weight: bold;
+  }
+  
+  .products {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about {
+    background: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  footer {
+    background: rgb(155, 113, 58);;
+    color: white;
+    text-align: center;
+    padding: 12px;
+  }
+
+
+
+
+
+.contact-container {
+    background: #fff;
+    padding: 25px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-container h1 {
+    color: #6f4e37;
+    margin-bottom: 8px;
+}
+
+.contact-container p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #6f4e37;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #56382a;
+}
+
+.contact-info {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.map iframe {
+    border-radius: 8px;
+}
+  
+  
